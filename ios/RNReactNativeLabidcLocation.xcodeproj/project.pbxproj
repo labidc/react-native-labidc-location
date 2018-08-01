@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AE090D3210EF8A7004304EA /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE090CF210EF892004304EA /* AMapLocationKit.framework */; };
+		8AE090D4210EF8A7004304EA /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE090D0210EF892004304EA /* AMapFoundationKit.framework */; };
+		8AE090D5210EF8A7004304EA /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE090D2210EF892004304EA /* AMapSearchKit.framework */; };
+		8AE090EF210EF8FB004304EA /* LabidcLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090ED210EF8FB004304EA /* LabidcLocation.m */; };
+		8AE090F0210EF955004304EA /* MJPropertyKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090D7210EF8D5004304EA /* MJPropertyKey.h */; };
+		8AE090F1210EF955004304EA /* NSObject+MJClass.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090D8210EF8D5004304EA /* NSObject+MJClass.h */; };
+		8AE090F2210EF955004304EA /* NSString+MJExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090D9210EF8D5004304EA /* NSString+MJExtension.h */; };
+		8AE090F3210EF955004304EA /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090DA210EF8D5004304EA /* MJPropertyType.m */; };
+		8AE090F4210EF955004304EA /* NSObject+MJProperty.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090DB210EF8D5004304EA /* NSObject+MJProperty.h */; };
+		8AE090F5210EF955004304EA /* MJExtensionConst.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090DC210EF8D5004304EA /* MJExtensionConst.h */; };
+		8AE090F6210EF955004304EA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090DD210EF8D5004304EA /* NSObject+MJKeyValue.m */; };
+		8AE090F7210EF955004304EA /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090DE210EF8D5004304EA /* MJProperty.m */; };
+		8AE090F8210EF955004304EA /* MJFoundation.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090DF210EF8D5004304EA /* MJFoundation.h */; };
+		8AE090F9210EF955004304EA /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E0210EF8D5004304EA /* NSObject+MJCoding.m */; };
+		8AE090FA210EF955004304EA /* MJExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E1210EF8D5004304EA /* MJExtension.h */; };
+		8AE090FB210EF955004304EA /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E2210EF8D5004304EA /* MJExtensionConst.m */; };
+		8AE090FC210EF955004304EA /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E3210EF8D5004304EA /* NSObject+MJProperty.m */; };
+		8AE090FD210EF955004304EA /* MJPropertyType.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E4210EF8D5004304EA /* MJPropertyType.h */; };
+		8AE090FE210EF955004304EA /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E5210EF8D5004304EA /* NSObject+MJClass.m */; };
+		8AE090FF210EF955004304EA /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E6210EF8D5004304EA /* NSString+MJExtension.m */; };
+		8AE09100210EF955004304EA /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E7210EF8D5004304EA /* MJPropertyKey.m */; };
+		8AE09101210EF955004304EA /* MJProperty.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E8210EF8D5004304EA /* MJProperty.h */; };
+		8AE09102210EF955004304EA /* NSObject+MJKeyValue.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090E9210EF8D5004304EA /* NSObject+MJKeyValue.h */; };
+		8AE09103210EF955004304EA /* NSObject+MJCoding.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090EA210EF8D5004304EA /* NSObject+MJCoding.h */; };
+		8AE09104210EF955004304EA /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090EB210EF8D5004304EA /* Info.plist */; };
+		8AE09105210EF955004304EA /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090EC210EF8D5004304EA /* MJFoundation.m */; };
+		8AE09106210EF966004304EA /* AMapLocationKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090CF210EF892004304EA /* AMapLocationKit.framework */; };
+		8AE09107210EF966004304EA /* AMapFoundationKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090D0210EF892004304EA /* AMapFoundationKit.framework */; };
+		8AE09108210EF966004304EA /* AMapSearchKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090D2210EF892004304EA /* AMapSearchKit.framework */; };
+		8AE09109210EF975004304EA /* LabidcLocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE090EE210EF8FB004304EA /* LabidcLocation.h */; };
+		8AE09155210F1BA4004304EA /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE09154210F1BA4004304EA /* libstdc++.6.0.9.dylib */; };
+		8AE09157210F1BBD004304EA /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE09156210F1BBD004304EA /* libz.1.dylib */; };
+		8AE09159210F1BD0004304EA /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE09158210F1BD0004304EA /* libc++.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNReactNativeLabidcLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNReactNativeLabidcLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE090CF210EF892004304EA /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		8AE090D0210EF892004304EA /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		8AE090D1210EF892004304EA /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		8AE090D2210EF892004304EA /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		8AE090D7210EF8D5004304EA /* MJPropertyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		8AE090D8210EF8D5004304EA /* NSObject+MJClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		8AE090D9210EF8D5004304EA /* NSString+MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		8AE090DA210EF8D5004304EA /* MJPropertyType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		8AE090DB210EF8D5004304EA /* NSObject+MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		8AE090DC210EF8D5004304EA /* MJExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		8AE090DD210EF8D5004304EA /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		8AE090DE210EF8D5004304EA /* MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		8AE090DF210EF8D5004304EA /* MJFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		8AE090E0210EF8D5004304EA /* NSObject+MJCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		8AE090E1210EF8D5004304EA /* MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		8AE090E2210EF8D5004304EA /* MJExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		8AE090E3210EF8D5004304EA /* NSObject+MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		8AE090E4210EF8D5004304EA /* MJPropertyType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		8AE090E5210EF8D5004304EA /* NSObject+MJClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		8AE090E6210EF8D5004304EA /* NSString+MJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		8AE090E7210EF8D5004304EA /* MJPropertyKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		8AE090E8210EF8D5004304EA /* MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		8AE090E9210EF8D5004304EA /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		8AE090EA210EF8D5004304EA /* NSObject+MJCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		8AE090EB210EF8D5004304EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE090EC210EF8D5004304EA /* MJFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		8AE090ED210EF8FB004304EA /* LabidcLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabidcLocation.m; sourceTree = "<group>"; };
+		8AE090EE210EF8FB004304EA /* LabidcLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabidcLocation.h; sourceTree = "<group>"; };
+		8AE09154210F1BA4004304EA /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		8AE09156210F1BBD004304EA /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		8AE09158210F1BD0004304EA /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE09159210F1BD0004304EA /* libc++.1.dylib in Frameworks */,
+				8AE09157210F1BBD004304EA /* libz.1.dylib in Frameworks */,
+				8AE09155210F1BA4004304EA /* libstdc++.6.0.9.dylib in Frameworks */,
+				8AE090D3210EF8A7004304EA /* AMapLocationKit.framework in Frameworks */,
+				8AE090D4210EF8A7004304EA /* AMapFoundationKit.framework in Frameworks */,
+				8AE090D5210EF8A7004304EA /* AMapSearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNReactNativeLabidcLocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				8AE090EE210EF8FB004304EA /* LabidcLocation.h */,
+				8AE090ED210EF8FB004304EA /* LabidcLocation.m */,
+				8AE090D6210EF8D5004304EA /* MJExtension */,
+				8AE090CE210EF892004304EA /* Extern */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				8AE090C7210EF855004304EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE090C7210EF855004304EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE09158210F1BD0004304EA /* libc++.1.dylib */,
+				8AE09156210F1BBD004304EA /* libz.1.dylib */,
+				8AE09154210F1BA4004304EA /* libstdc++.6.0.9.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AE090CE210EF892004304EA /* Extern */ = {
+			isa = PBXGroup;
+			children = (
+				8AE090CF210EF892004304EA /* AMapLocationKit.framework */,
+				8AE090D0210EF892004304EA /* AMapFoundationKit.framework */,
+				8AE090D1210EF892004304EA /* MAMapKit.framework */,
+				8AE090D2210EF892004304EA /* AMapSearchKit.framework */,
+			);
+			path = Extern;
+			sourceTree = "<group>";
+		};
+		8AE090D6210EF8D5004304EA /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8AE090D7210EF8D5004304EA /* MJPropertyKey.h */,
+				8AE090D8210EF8D5004304EA /* NSObject+MJClass.h */,
+				8AE090D9210EF8D5004304EA /* NSString+MJExtension.h */,
+				8AE090DA210EF8D5004304EA /* MJPropertyType.m */,
+				8AE090DB210EF8D5004304EA /* NSObject+MJProperty.h */,
+				8AE090DC210EF8D5004304EA /* MJExtensionConst.h */,
+				8AE090DD210EF8D5004304EA /* NSObject+MJKeyValue.m */,
+				8AE090DE210EF8D5004304EA /* MJProperty.m */,
+				8AE090DF210EF8D5004304EA /* MJFoundation.h */,
+				8AE090E0210EF8D5004304EA /* NSObject+MJCoding.m */,
+				8AE090E1210EF8D5004304EA /* MJExtension.h */,
+				8AE090E2210EF8D5004304EA /* MJExtensionConst.m */,
+				8AE090E3210EF8D5004304EA /* NSObject+MJProperty.m */,
+				8AE090E4210EF8D5004304EA /* MJPropertyType.h */,
+				8AE090E5210EF8D5004304EA /* NSObject+MJClass.m */,
+				8AE090E6210EF8D5004304EA /* NSString+MJExtension.m */,
+				8AE090E7210EF8D5004304EA /* MJPropertyKey.m */,
+				8AE090E8210EF8D5004304EA /* MJProperty.h */,
+				8AE090E9210EF8D5004304EA /* NSObject+MJKeyValue.h */,
+				8AE090EA210EF8D5004304EA /* NSObject+MJCoding.h */,
+				8AE090EB210EF8D5004304EA /* Info.plist */,
+				8AE090EC210EF8D5004304EA /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNReactNativeLabidcLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNReactNativeLabidcLocation" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNReactNativeLabidcLocation;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNReactNativeLabidcLocation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNReactNativeLabidcLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNReactNativeLabidcLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE09109210EF975004304EA /* LabidcLocation.h in Sources */,
+				8AE09106210EF966004304EA /* AMapLocationKit.framework in Sources */,
+				8AE09107210EF966004304EA /* AMapFoundationKit.framework in Sources */,
+				8AE09108210EF966004304EA /* AMapSearchKit.framework in Sources */,
+				8AE090F0210EF955004304EA /* MJPropertyKey.h in Sources */,
+				8AE090F1210EF955004304EA /* NSObject+MJClass.h in Sources */,
+				8AE090F2210EF955004304EA /* NSString+MJExtension.h in Sources */,
+				8AE090F3210EF955004304EA /* MJPropertyType.m in Sources */,
+				8AE090F4210EF955004304EA /* NSObject+MJProperty.h in Sources */,
+				8AE090F5210EF955004304EA /* MJExtensionConst.h in Sources */,
+				8AE090F6210EF955004304EA /* NSObject+MJKeyValue.m in Sources */,
+				8AE090F7210EF955004304EA /* MJProperty.m in Sources */,
+				8AE090F8210EF955004304EA /* MJFoundation.h in Sources */,
+				8AE090F9210EF955004304EA /* NSObject+MJCoding.m in Sources */,
+				8AE090FA210EF955004304EA /* MJExtension.h in Sources */,
+				8AE090FB210EF955004304EA /* MJExtensionConst.m in Sources */,
+				8AE090FC210EF955004304EA /* NSObject+MJProperty.m in Sources */,
+				8AE090FD210EF955004304EA /* MJPropertyType.h in Sources */,
+				8AE090FE210EF955004304EA /* NSObject+MJClass.m in Sources */,
+				8AE090FF210EF955004304EA /* NSString+MJExtension.m in Sources */,
+				8AE09100210EF955004304EA /* MJPropertyKey.m in Sources */,
+				8AE09101210EF955004304EA /* MJProperty.h in Sources */,
+				8AE09102210EF955004304EA /* NSObject+MJKeyValue.h in Sources */,
+				8AE09103210EF955004304EA /* NSObject+MJCoding.h in Sources */,
+				8AE09104210EF955004304EA /* Info.plist in Sources */,
+				8AE09105210EF955004304EA /* MJFoundation.m in Sources */,
+				8AE090EF210EF8FB004304EA /* LabidcLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Extern",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeLabidcLocation;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Extern",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeLabidcLocation;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNReactNativeLabidcLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNReactNativeLabidcLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

@@ -1,0 +1,45 @@
+
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'
+    }
+}
+android {
+    compileSdkVersion 23
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    google()
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+    // api 会暴露依赖包，implementation不会暴露，尽量用implementation
+    //implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.amap.api:location:4.1.0'
+    implementation 'com.amap.api:search:6.1.0'
+    compileOnly "org.projectlombok:lombok:1.16.10"
+    annotationProcessor "org.projectlombok:lombok:1.16.10"
+    implementation "com.alibaba:fastjson:1.1.67.android"
+}
+  
