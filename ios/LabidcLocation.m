@@ -138,16 +138,16 @@ RCT_EXPORT_METHOD(start:(int)interval callback:(RCTResponseSenderBlock)callback 
 - (void)amapLocationManager:(AMapLocationManager *)manager didUpdateLocation:(CLLocation *)location reGeocode:(AMapLocationReGeocode *)reGeocode
 {
     
-    if (hasListeners) {
+    //if (hasListeners) {
         NSLog(@"location:{lat:%f; lon:%f; accuracy:%f}", location.coordinate.latitude, location.coordinate.longitude, location.horizontalAccuracy);
         NSString *retValue =  [NSString stringWithFormat:@" %f,%f",location.coordinate.latitude, location.coordinate.longitude];
         
         NSLog(@"================地理位置字符串%@", retValue);
         [self sendEventWithName:@"location" body:@{@"location":retValue}];
-    }else
-    {
-         NSLog(@"================没有监听者");
-    }
+    //}else
+    //{
+    //     NSLog(@"================没有监听者");
+    //}
    
 }
 
